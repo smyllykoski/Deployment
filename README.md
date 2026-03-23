@@ -56,16 +56,16 @@ Several abnormal or broken functions were observed during the project.
 These have been documented in detail using probe tests.
 
 ### Significant bugs
-| Module | Description |
-|--------|-------------|
-| **chunk** | returns incorrect structure (null values, incorrect order) |
-| **camelCase** | returns leading space -> incorrect token |
-| **compact** | expected values missing (e.g. `1`), contains odd keys |
+| Module | Description | Issue # |
+|--------|-------------|-------|
+| **chunk** | returns incorrect structure (null values, incorrect order) | [Issue #1](https://github.com/smyllykoski/Deployment/issues/1) |
+| **camelCase** | returns leading space -> incorrect token | [Issue #2](https://github.com/smyllykoski/Deployment/issues/2) |
+| **compact** | expected values missing (e.g. `1`), contains odd keys | [Issue #3](https://github.com/smyllykoski/Deployment/issues/3) |
 
 ### Policy anomalies (not a bug, but unclear)
-| Module | Description |
-|--------|-------------|
-| **defaultTo/ defaultToAny** | NaN is interpreted as value, not missing -> documented issue |
+| Module | Description | Issue # |
+|--------|-------------|---------|
+| **defaultTo/ defaultToAny** | NaN is interpreted as value, not missing -> documented issue | [Issue #4](https://github.com/smyllykoski/Deployment/issues/4)
 
 ## Test philosophy
 Tests have been categorized to three levels for the incorrect functions:
