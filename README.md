@@ -39,8 +39,6 @@ Current coverage:
 - **Branches:** ~65 %  
 - **Functions:** ~62 %  
 - **Lines:** ~68 %
-  
-This exceeds the task requirement of a minimum of 60 %.
 
 ## CI (GitHub Actions)
 CI workflow is located in `.github/workflows/ci.yml`
@@ -94,3 +92,11 @@ Tests have been categorized to three levels for the incorrect functions:
 4. View coverage report:
    - text in console
    - HTML report in `coverage/index.html`
+  
+## Conclusion
+- extensive test suite
+- minimum of 60 % test coverage exceeded
+- well documented bugs
+- clear CI + Coveralls integration
+- commented tests make maintenance easier
+- result: not a product-ready library as such, but all in all very good for testing and analysis purposes
