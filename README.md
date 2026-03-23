@@ -53,3 +53,44 @@ CI is responsible for:
 
 Workflow supports also `workflow_dispatch`: CI can be manually initiated in GitHub Actions view.
 
+## Observed bugs and Issue reports
+Several abnormal or broken functions were observed during the project.
+These have been documented in detail using probe tests.
+
+### Significant bugs
+| Module | Description |
+|--------|-------------|
+| **chunk** | returns incorrect structure (null values, incorrect order) |
+| **camelCase** | returns leading space -> incorrect token |
+| **compact** | expected values missing (e.g. `1`), contains odd keys |
+
+### Policy anomalies (not a bug, but unclear)
+| Module | Description |
+|--------|-------------|
+| **defaultTo/ defaultToAny** | NaN is interpreted as value, not missing -> documented issue |
+
+## Test philosophy
+Tests have been categorized to three levels for the incorrect functions:
+### 1 **Probe tests**
+- output the acutal behavior to CI logs (does not break the pipeline)
+### 2 **Expected-spec** 
+- describes how the function *should* behave (when the bug is fixed)
+### 3 **Library-specific-spec**
+- tests which correspond to the actual behavior of the library
+
+## How to run the project locally
+1. Install dependencies
+    ```bash
+    npm install
+    ```
+2. Run tests
+   ```bash
+   npm test
+   ```
+3. Run coverage
+   ```bash
+   npm run coverage
+   ```
+4. View coverage report:
+   - text in console
+   - HTML report in `coverage/index.html`
