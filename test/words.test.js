@@ -4,7 +4,7 @@
  * Tests for src/words.js
  *
  * Purpose:
- *  - Tokens a string of characters as words.
+ *  - Tokens a string as words.
  *  - Increases line cover and supports the word division of camelCase,
  *    although camelCase is a known issue (leading space).
  *
