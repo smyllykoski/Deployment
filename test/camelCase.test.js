@@ -8,7 +8,7 @@
  *  - Ensure the first token is lowercased and subsequent ones are UpperCased.
  *
  * Current:
- *  - Result contains leading whitespace:
+ *  - Result contains leading space:
  *      camelCase('Hello world example') -> ' helloWorldExample'
  *      camelCase('hello-world_example') -> ' helloWorldExample'
  *  Not typical for camelCase -> a probable bug.
@@ -17,10 +17,10 @@
  *  - Keep the tests skipped to not mess with the pipeline.
  *  - Leave the probe test visible: documents unexpected behavior.
  *  - Compat-spec: keeps tests green and coverage up.
- *  - GitHub issues for reporting (ref. course assignment requirements).
+ *  - GitHub issues (#002) for reporting (ref. course assignment requirements).
  *
  * Author: Sini Myllykoski
- * Date: 22.3.2026
+ * Date: 23.3.2026
  */
 
 import { expect } from "chai";
