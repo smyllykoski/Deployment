@@ -13,10 +13,10 @@
  *  - Probe: prints to CI logs what the function actually returns with different inputs
  *  - Expected (skip): document classic policy
  *  - Library-spec: green tests correspond to the actual behavior of library
- *  - GitHub issues (#003) for reporting (ref. course assignment requirements).
+ *  - GitHub issues (issue #3) for reporting (ref. course assignment requirements).
  *
  * Author: Sini Myllykoski
- * Date: 23.3.2026
+ * Date: 24.3.2026
  */
 
 import { expect } from "chai";

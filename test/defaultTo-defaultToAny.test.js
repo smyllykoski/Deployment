@@ -11,7 +11,7 @@
  * Solution:
  *  - Expected (skip): policy variant which would use default also for NaN
  *  - Library-specific: tests for the actual policy of the library
- *  - GitHub issues (#004) for reporting (ref. course assignment requirements).
+ *  - GitHub issues (issue #4) for reporting (ref. course assignment requirements).
  *
  * Author: Sini Myllykoski
  * Date: 23.3.2026

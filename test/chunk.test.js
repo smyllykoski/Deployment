@@ -14,10 +14,10 @@
  * What now:
  *  - Keep the tests skipped to not mess with the pipeline.
  *  - Leave the probe test visible: documents unexpected behavior.
- *  - GitHub issues (#001) for reporting (ref. course assignment requirements).
+ *  - GitHub issues (issue #1) for reporting (ref. course assignment requirements).
  *
  * Author: Sini Myllykoski
- * Date: 23.3.2026
+ * Date: 24.3.2026
  */
 
 import { expect } from "chai";
