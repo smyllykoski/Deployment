@@ -1,7 +1,7 @@
 /**
  * difference.test.js
  * ---------------------------------------------------------
- * Tests for src/difference.js
+ * Unit tests for src/difference.js
  *
  * Purpose:
  *  - verify that `difference(array, values)` returns a new array

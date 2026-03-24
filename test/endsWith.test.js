@@ -1,7 +1,7 @@
 /**
  * endsWith.test.js
  * ---------------------------------------------------------
- * Tests for src/endsWith.js
+ * Unit tests for src/endsWith.js
  *
  * Purpose:
  *  - ensure that èndsWith(string, target, [position])` correctly

@@ -1,7 +1,9 @@
 /**
  * defaultTo-defaultToAny.test.js
  * ---------------------------------------------------------
- * Tests for src/defaultTo.js and src/defaultToAny.js
+ * Unit tests for
+ *  - src/defaultTo.js
+ *  - src/defaultToAny.js
  *
  * Current:
  *  - "NaN on invalid -> use default": not valid in this library.
@@ -14,7 +16,7 @@
  *  - GitHub issues (issue #4) for reporting (ref. course assignment requirements).
  *
  * Author: Sini Myllykoski
- * Date: 23.3.2026
+ * Date: 24.3.2026
  */
 
 import { expect } from "chai";
