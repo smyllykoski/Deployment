@@ -9,8 +9,9 @@ This task implements unit tests, test coverage, continuous integration (CI) and 
 The purpose of this task is to:
 - build a functional test automation project
 - reach a minimum of a 60 % test coverage
-- report the discovered bugs to GitHub Issue system
-- integrate GitHub Actions and Coveralls
+- report the discovered bugs to GitHub Issues
+- integrate GitHub Actions CI (continuous integration)
+- integrate Coveralls for coverage reporting
 - document the process in a clear and systematic manner
 
 ## Project contents
@@ -20,8 +21,8 @@ All tests are located in `test/` directory
 
 The tests cover extensively:
 - basic functions: `add`, `clamp`, `compact`, `difference`, `endsWith`, `get`, `keys`, `toFinite`, `toInteger`, `toNumber`, `toString`,
-- string operations: `capitalize`, `upperFirst`, `camelCase`, `words`
-- structural tools: `chunk`, `defaultTo`, `defaultToAny`, `isEmpty`
+- string operations: `capitalize`, `upperFirst`, `camelCase` (with known issue), `words`
+- structural tools: `chunk` (known issue), `defaultTo`, `defaultToAny`, `isEmpty`
 - documented issues using probe tests: `chunk`, `camelCase`, `compact`
 
 All tests are written using ESM syntax and commented in detail.
@@ -48,6 +49,8 @@ CI is responsible for:
 - running the tests
 - generating the coverage
 - forwarding the coverage report to Coveralls
+
+Coveralls: [Coveralls](https.//coveralls.io/github/smyllykoski/Deployment)
 
 Workflow supports also `workflow_dispatch`: CI can be manually initiated in GitHub Actions view.
 
