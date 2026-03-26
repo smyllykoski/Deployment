@@ -35,10 +35,10 @@ This generates:
 - `text-summary` - shown in CI logs
 
 Current coverage:
-- **Statements:** ~68 %  
-- **Branches:** ~65 %  
-- **Functions:** ~62 %  
-- **Lines:** ~68 %
+- **Statements:** ~71 %  
+- **Branches:** ~66 %  
+- **Functions:** ~64 %  
+- **Lines:** ~71 %
 
 ## CI (GitHub Actions)
 CI workflow is located in `.github/workflows/ci.yml`
